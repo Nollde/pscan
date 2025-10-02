@@ -1,0 +1,31 @@
+[build-system] 
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pypscan"
+version = "2025.0.1"
+authors = [
+  { name="Dennis Noll", email="github@nollde.de" },
+]
+description = "Parametric file browser written in pure python."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "ipywidgets",
+  "pillow",
+  "wand",
+  "numpy",
+  "tqdm",
+]
+license = {text = "MIT License"}
+keywords = ["filebrowser", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Development Status :: 4 - Beta",
+]
+
+[project.urls]
+Homepage = "https://github.com/nollde/pypscan"
+Issues = "https://github.com/nollde/pypscan/issues"

@@ -7,10 +7,10 @@ from wand.image import Image as WImage
 import ipywidgets as widgets
 from ipywidgets import interact
 
-from utils import SKDict
+from .utils import SKDict
 
 
-class PScan:
+class PyPScan:
     def __init__(self, regex, base_path="./"):
         self.regex = regex
         self.base_path = base_path
