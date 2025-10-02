@@ -1,0 +1,12 @@
+name: pscan
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - ipykernel
+  - ipywidgets
+  - pillow
+  - wand
+  - numpy
+  - tqdm
