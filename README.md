@@ -7,6 +7,12 @@ Now also available in iPython notebooks using pure Python:
 
 ![output](https://github.com/user-attachments/assets/d7864b16-2a0f-4632-9fb7-75fd73730c27)
 
+## Install
+Simply install via
+```
+pip install pypscan
+```
+
 ## Usage
 ```
 from pypscan import PyPScan
